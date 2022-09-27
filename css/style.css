@@ -24,8 +24,9 @@ h2{
     padding-bottom: 1rem;
 }
 
-h4{
+h3{
     margin-bottom: 1rem;
+    font-size: 1.5rem;
 }
 
 .flag{
@@ -93,7 +94,7 @@ header nav .login{
 .margin-paragraph{
     margin-bottom: 1rem;
 }
-.text-smaller-container,.text-center,h4{
+.text-smaller-container,.text-center,h3{
     text-align: center;
 }
 
@@ -143,6 +144,7 @@ header nav .login{
     width: 920px;
     margin: 0 auto;
     height: auto;
+    align-items: center;
 }
 
 main section .smaller{
@@ -178,12 +180,10 @@ main .blue-background{
 
 main section .blue-rectangle{
     width: calc(100%/3*2);
-    background-color: #1e90ff;
     
 }
 
 main section .pink-square{
-    background-color: #ffc0cb;
     width: calc(100%/3);
     padding: 2rem 25px;
     justify-content: flex-end;
@@ -194,32 +194,35 @@ main .gray-bg{
 }
 
 .gray-bg .green-rectangle{
-    background-color: #228b22;
     padding: 2rem 25px;
 }
-.bg-img-h4{
+
+.bg-img-h3{
     background-image: url("../img/stars.svg");
+    background-size: inherit; 
+    background-repeat-x: no-repeat;
+    background-position: center;
+    padding: 0.5rem 0;
 }
 
 
 footer,.fontsize{
-    font-size: 0.5rem;
+    font-size: 1rem;
     color: white;  
 }
 
 footer  li{
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.4rem;
 }
-footer div .text-h4-sx{
+
+footer div .text-h3-sx{
     text-align: left;
     margin-bottom: 0.5rem;
     color: #3161e0;
-    font-size: 1rem;
 }
 
 footer .pink-col{
     width: calc(100%/6*2);
-    background-color: #f08080;
     padding: 1rem 4rem;
 }
 footer li:first-child{
@@ -228,7 +231,7 @@ footer li:first-child{
 }
 
 footer .blu-col{
-    background-color: #20b2aa;
+    
     width: calc(100%/6);
     padding: 1rem 0;
 }
@@ -236,15 +239,11 @@ footer .blu-col{
 footer .logo-button{
     height: auto;
     justify-content: space-between;
-    background-color: #7fffd4;
 }
 
 footer .border-bottom{
     border-bottom: 1px solid #3161e0;;
 }
 
-footer .pink-logo,.pink-button{
-    background-color: #ffb6c1;
-}
 
 
