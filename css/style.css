@@ -21,7 +21,29 @@ h1{
 
 h2{
     font-size: 2rem;
+    padding-bottom: 1rem;
 }
+
+h4{
+    margin-bottom: 1rem;
+}
+
+.flag{
+    height: .5rem;
+    vertical-align: middle;
+}
+
+.language{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 0.5rem;
+    /* come ridurre freccina? */
+}
+.container-language{
+    padding-bottom: .5rem;
+}
+
 
 nav{
     background-color: #3161e0;
@@ -31,7 +53,7 @@ nav{
     width: 100%;
 }
 
-ul{
+header nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,8 +93,12 @@ header nav .login{
 .margin-paragraph{
     margin-bottom: 1rem;
 }
-.text-smaller-container{
+.text-smaller-container,.text-center,h4{
     text-align: center;
+}
+
+.text-center{
+    padding: 1rem 2rem;
 }
 
 .margin-paragraph.white{
@@ -93,6 +119,14 @@ header nav .login{
 .button.black-text-white{
     background-color: var(--color-text);
     color: white;
+}
+
+.button.violet{
+    background-color: #8ea1e1;
+    color: white;
+}
+.container-button{
+    justify-content: center;
 }
 
 .flex{
@@ -122,14 +156,18 @@ nav,footer .container.flex{
 }
 
 .img-item1{
-    width: calc(100%/3*2);
-    
+    width: calc(100%/3*2);   
 }
 
-.img-1,.text{
-    height: 50%;
-
+.img-1{
+    width: 80%;
 }
+
+.img-dx{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .text{
     width: calc(100%/3);
 }
@@ -147,7 +185,7 @@ main section .blue-rectangle{
 main section .pink-square{
     background-color: #ffc0cb;
     width: calc(100%/3);
-    padding: 1rem 0;
+    padding: 2rem 25px;
     justify-content: flex-end;
 }
 
@@ -156,19 +194,43 @@ main .gray-bg{
 }
 
 .gray-bg .green-rectangle{
-    height: 350px;
     background-color: #228b22;
-    border: 1px dashed black;
+    padding: 2rem 25px;
+}
+.bg-img-h4{
+    background-image: url("../img/stars.svg");
+}
+
+
+footer,.fontsize{
+    font-size: 0.5rem;
+    color: white;  
+}
+
+footer  li{
+    padding-bottom: 0.5rem;
+}
+footer div .text-h4-sx{
+    text-align: left;
+    margin-bottom: 0.5rem;
+    color: #3161e0;
+    font-size: 1rem;
 }
 
 footer .pink-col{
     width: calc(100%/6*2);
     background-color: #f08080;
+    padding: 1rem 4rem;
+}
+footer li:first-child{
+    color: #3161e0;
+    font-weight: bold;
 }
 
 footer .blu-col{
     background-color: #20b2aa;
     width: calc(100%/6);
+    padding: 1rem 0;
 }
 
 footer .logo-button{
@@ -177,6 +239,12 @@ footer .logo-button{
     background-color: #7fffd4;
 }
 
+footer .border-bottom{
+    border-bottom: 1px solid #3161e0;;
+}
+
 footer .pink-logo,.pink-button{
     background-color: #ffb6c1;
 }
+
+
