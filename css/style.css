@@ -1,0 +1,181 @@
+:root{
+    --color-text: #23272A;
+    --margin-title2: 1rem;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+    color: white;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+nav{
+    background-color: #3161e0;
+}
+
+.logo-discord{
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    list-style:none;
+  }
+  
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    padding: 1rem ;
+  }
+
+section{
+    padding: 40px 80px;
+}
+
+footer{ 
+    background-color: #23272a;
+}
+
+header nav .logo{
+    width: 15%;
+}
+
+header nav .login{
+    width: 15%;
+}
+
+.container-link{
+    width: 70%;
+}
+
+.margin-paragraph{
+    margin-bottom: 1rem;
+}
+.text-smaller-container{
+    text-align: center;
+}
+
+.margin-paragraph.white{
+    color: white;
+}
+.button{
+    border: none;
+    border-radius: 25px;
+    padding: .5rem .8rem;
+    background-color: #ffffff ;
+}
+
+.button.small{
+    padding: .3rem .6rem;
+    font-size: small;
+}
+
+.button.black-text-white{
+    background-color: var(--color-text);
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+    width: 920px;
+    margin: 0 auto;
+    height: 250px;
+}
+
+.container-nav{
+    background-color: transparent;
+    width: 920px;
+    margin: 0 auto;
+    height: auto;
+}
+
+main section .smaller{
+    width: 700px;
+    background-color: transparent;
+    padding: 1.5rem;
+}
+
+nav,footer .container.flex{
+    padding: 0.5rem 0;
+}
+
+.img-item1{
+    width: calc(100%/3*2);
+}
+
+.img-1,.text{
+    height: 100%;
+
+}
+.text{
+    width: calc(100%/3);
+}
+main .blue-background{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+}
+
+main section .blue-rectangle{
+    width: calc(100%/3*2);
+    background-color: #1e90ff;
+    
+}
+
+main section .pink-square{
+    background-color: #ffc0cb;
+    width: calc(100%/3);
+    padding: 1rem 0;
+}
+
+main .gray-bg{
+    background-color: #d3d3d3;
+}
+
+.gray-bg .green-rectangle{
+    height: 350px;
+    background-color: #228b22;
+    border: 1px dashed black;
+}
+
+footer .pink-col{
+    width: calc(100%/6*2);
+    background-color: #f08080;
+}
+
+footer .blu-col{
+    background-color: #20b2aa;
+    width: calc(100%/6);
+}
+
+footer .logo-button{
+    height: auto;
+    justify-content: space-between;
+    background-color: #7fffd4;
+}
+
+footer .pink-logo,.pink-button{
+    background-color: #ffb6c1;
+}
